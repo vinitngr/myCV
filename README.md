@@ -1,5 +1,5 @@
 - 👋 Hi, I’m - Vinit Nagar
-- 👀 I’m interested in? -technological especially AI field
+- 👀 I’m interested in? -tech especially the AI field 
 - 🌱 I’m currently learning Web Dev
 - 💞️ I’m looking to collaborate on competitive coding competitions
 - 📫 How to reach me ? -via my twitter/X (@sorxererr)

@@ -1,8 +1,8 @@
 - 👋 Hi, I’m - Vinit Nagar
-- 👀 I’m interested in? -tech especially the AI field 
+- 👀 I’m interested in? -tech, specially in web3 and ai field 
 - 🌱 I’m currently learning Web Dev
 - 💞️ I’m looking to collaborate on competitive coding competitions
-- 📫 How to reach me ? -via my twitter/X (@sorxererr)
+- 📫 How to reach me ? -via email nagarvinit56@gmail.com
 - 😄 Pronouns: he/him  
 - ⚡Eager to contribute to the evolving world of technology. 
 <!---

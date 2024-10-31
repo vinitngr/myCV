@@ -1,79 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinit Nagar~linkedCV</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-</head>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+
 <body>
     <div class="container">
         <div class="inner-div">
-            <div id="img">
-                  
-            </div>
-            <div id="myname">
-                <h1 class="head vinit">VINIT NAGAR</h1>
-                <p class="head">Currenty A Full stack web developer</p>
+            <div id="img"></div>
+            <div>
+                <h1 class="head" style="color: rgb(0, 0, 62);">VINIT NAGAR</h1>
+                <p class="head" style="color: white;">Currently a Full Stack Web Developer</p>
+                <p class="head" style="color: white;">Finding career on Ai and Computer vision</p>
             </div>
         </div>
-        <div id="text">
-            <br>
+
+        <section>
             <h2>About Me</h2>
             <hr>
-            <div id="intro" style="margin-left: 50px; margin-right: 50px;">
-                I am a BE second year ECE student and studying at MBM University, Jodhpur. I am still pursuing education and aim to become a AI/ML engineer. I'm also interested in web designing and dev.
-            </div>
-            <br>
-            <br>
+            <p class="section-content">
+                An aspiring engineer and tech enthusiast, trapped in the wrong academic branch, harbours a deep passion
+                for the technical field, with a special focus on <code>AI</code>, <code>Computer vision</code>
+        </section>
+
+        <section>
             <h2>Education</h2>
             <hr>
-            <pre style="margin: 0;">
-                <Ul>
-                    <li><p class="bald">&#8226; Bachelor of Engineering -</p><p>MBM UNIVERSITY, JODHPUR</p></li>
-                    <li><p class="bald">&#8226; 12th Board</p><p>SVGMS, Sumerpur</p></li>
-                    <li><p class="bald">&#8226; 10th Board</p><p>RGAVM, Takhatgarh</p></li>
-                </Ul>
-            </pre>
+            <ul>
+                <li><span class="bald">&#8226; Bachelor of Engineering :</span> MBM UNIVERSITY, JODHPUR</li>
+                <li><span class="bald">&#8226; 12th Board :</span> SVGMS, Sumerpur</li>
+                <li><span class="bald">&#8226; 10th Board :</span> RGAVM, Takhatgarh</li>
+            </ul>
+        </section>
+
+        <section>
             <h2>Projects</h2>
             <hr>
-            <h3 id="fe" style="margin: 10px;">Front end projects</h3>
-            <div class="projects">
-                <p class="proj">&#8226; Amazon Responsive clone (JS , HTML , CSS</p>
-                <p class="proj">&#8226; Type Racer , ownAcar </p>
-                <p class="proj">&#8226; Rejouice Clone , SIMON GAME and more...</p>
-                
-            </div>
-            <br>
-            <br>
+            <h3>Front End Projects</h3>
+            <ul>
+                <li>&#8226; Amazon Responsive Clone (JS, HTML, CSS)</li>
+                <li>&#8226; Type Racer, ownAcar</li>
+                <li>&#8226; Rejouice Clone, SIMON GAME, and more...</li>
+            </ul>
+        </section>
+
+        <section>
             <h2>Skills</h2>
             <hr>
-            <div id="skills">
-                <div>
-                    <h3 style="margin: 10px; ">&#8226; Language -</h3>
-                    <p> JS, CSS, HTML/EJS, MongoDB, GSAP, node and express</p>
-                    <p> Arduino-Cpp, python, tailwind CSS , react , typescript , postgresql</p>
-                </div>
-                <div>
-                    <h3 style="margin: 10px;">&#8226; Soft skills -</h3>
-                    <p>problem-solving, Communication</p>
-                </div>
-            </div>
-            <br>
-            <br>
-            <h2>Contact</h2>
+            <div id="skillsContainer"></div>
+
+        </section>
+
+        <section>
+            <h2>Get in Touch</h2>
             <hr>
-            <div class="projects">
-                <p style="margin-top: 20px;">&#8226; </p>
-                <p style="margin-top: 20px;">&#8226; Twitter / X : @sorxererr</p>
-            </div>
-            <br>
-            <br>
-            <hr>
-        </div>
+            <ul>
+                <li>&#8226; Twitter / X: <a href="#">@sorxererr</a></li>
+                <li>&#8226; GitHub : <a href="https://github.com/vinitngr">@vinitngr</a></li>
+                <li>&#8226; LinkedIn : <a href="https://www.linkedin.com/in/vinit-nagar-264434293/">Vinit Nagar</a></li>
+            </ul>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+
     </div>
+    <script>
+        const skills = [
+            { category: "Techstacks", skills: ["JS", "CSS", "HTML/EJS", "MongoDB", "GSAP", "Node and Express", "Arduino-Cpp", "Python", "Tailwind CSS", "React", "TypeScript", "PostgreSQL"] },
+            { category: "Soft Skills", skills: ["Problem-solving", "Communication"] }
+        ];
+
+        const skillsContainer = document.getElementById("skillsContainer");
+
+        skills.forEach(section => {
+            const categoryHeading = document.createElement("h3");
+            categoryHeading.textContent = `${section.category}`;
+            skillsContainer.appendChild(categoryHeading);
+            const skillsWrapper = document.createElement("div");
+            section.skills.forEach(skill => {
+                const skillTag = document.createElement("code");
+                skillTag.textContent = skill;
+                skillsWrapper.appendChild(skillTag);
+            });
+            skillsContainer.appendChild(skillsWrapper);
+        });
+    </script>
+
 </body>
+
 </html>

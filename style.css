@@ -99,8 +99,15 @@ body {
                 align-items: center;
             }
 
-            #img {
-                margin-bottom: 10px;
+            .inner-div div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .inner-div p,
+            .inner-div h1 {
+                margin: 5px;
             }
 
             .head {

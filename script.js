@@ -1,4 +1,4 @@
-const skillsContainer = document.getElementById("skillsContainer");
+   const skillsContainer = document.getElementById("skillsContainer");
         const projectContainer = document.getElementById('projectContainer');
 
         const skills = [
@@ -32,25 +32,25 @@ const skillsContainer = document.getElementById("skillsContainer");
             },
             {
                 title: 'ownAcar',
-                description: 'A platform for buying and selling used cars with user authentication and listings.',
+                description: 'A platform for buying and selling cars , immplemented services like drizzle, neon, client etc..',
                 link: 'https://example.com/ownacar',
                 status: 'Progress'
             },
             {
                 title: 'Weblogs',
-                description: 'A blogging platform allowing users to create, read, and comment on blog posts.',
+                description: 'A blogging platform for developers allowing users to create, read, and comment on blog posts. also allow user to repost blogs using ext.',
                 link: 'https://example.com/weblogs',
                 status: 'Progress'
             },
             {
                 title: 'Type Racer',
-                description: 'A typing speed game that allows users to race against each other in typing texts.',
+                description: 'A simple type racing platform where you can type given quotes and check your type speed ,btw mine is 80 lol.',
                 link: 'https://example.com/type-racer',
                 status: 'completed'
             },
             {
                 title: 'Rejouice Clone',
-                description: 'A clone of Rejouice, featuring music streaming and user playlists.',
+                description: 'A clone of Rejouice A animated website made using Gsap, ',
                 link: 'https://example.com/rejouice-clone',
                 status: 'completed'
             },
@@ -61,11 +61,12 @@ const skillsContainer = document.getElementById("skillsContainer");
                 status: 'Completed'
             },
             {
-                title: 'primarease',
-                description: 'A classic memory game where players repeat a sequence of colors and sounds.',
+                title: 'Primarease',
+                description: 'A digital dashboard designed for farmers, Primarease offers easy graphical data visualization, allowing users to monitor their crops effectively.',
                 link: 'https://example.com/simon-game',
                 status: 'planned'
-            }
+            }   
+
         ];
         projects.forEach(project => {
             const projectDiv = document.createElement('div');
@@ -75,11 +76,14 @@ const skillsContainer = document.getElementById("skillsContainer");
 
             projectDiv.innerHTML = `
                 <div>
-                    <h3 class="titlee">
+                    <h3 class='titlee'>
                         <a href="${project.link}" target="_blank" style="text-decoration: none; color: black ;">${project.title}</a>
                         <span class="status ${statusClass}" >${project.status}</span>
                     </h3>
-                    <p style="margin: 0">${project.description}</p>
+                 <p style="margin: 0; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; text-overflow: ellipsis;">
+                    ${project.description}
+                </p>
+
                 </div>
             `;
             projectContainer.appendChild(projectDiv);

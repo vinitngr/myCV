@@ -88,23 +88,44 @@
     </div>
     <script>
         const skills = [
-            { category: "Techstacks", skills: ["JS", "CSS", "HTML/EJS", "MongoDB", "GSAP", "Node and Express", "Arduino-Cpp", "Python", "Tailwind CSS", "React", "TypeScript", "PostgreSQL"] }
-        ];
+    {
+        category: "Frontend Development",
+        skills: ["JS", "CSS", "HTML/EJS", "Tailwind CSS", "React", "TypeScript", "GSAP"]
+    },
+    {
+        category: "Backend Development",
+        skills: ["Node and Express", "MongoDB", "PostgreSQL"]
+    },
+    {
+        category: "Programming Languages",
+        skills: ["JavaScript", "Python", "TypeScript", "Arduino-Cpp"]
+    },
+    {
+        category: "Databases",
+        skills: ["MongoDB", "PostgreSQL"]
+    },
+    {
+        category: "Tech Tools",
+        skills: ["Arduino-Cpp", "GSAP"]
+    }
+];
 
-        const skillsContainer = document.getElementById("skillsContainer");
+const skillsContainer = document.getElementById("skillsContainer");
 
-        skills.forEach(section => {
-            const categoryHeading = document.createElement("h3");
-            categoryHeading.textContent = `${section.category}`;
-            skillsContainer.appendChild(categoryHeading);
-            const skillsWrapper = document.createElement("div");
-            section.skills.forEach(skill => {
-                const skillTag = document.createElement("code");
-                skillTag.textContent = skill;
-                skillsWrapper.appendChild(skillTag);
-            });
-            skillsContainer.appendChild(skillsWrapper);
-        });
+skills.forEach(section => {
+    const categoryHeading = document.createElement("h3");
+    categoryHeading.textContent = section.category;
+    skillsContainer.appendChild(categoryHeading);
+    
+    const skillsWrapper = document.createElement("div");
+    section.skills.forEach(skill => {
+        const skillTag = document.createElement("code");
+        skillTag.textContent = skill;
+        skillsWrapper.appendChild(skillTag);
+    });
+    skillsContainer.appendChild(skillsWrapper);
+});
+
     </script>
 
 </body>

@@ -75,7 +75,7 @@ const skillsContainer = document.getElementById("skillsContainer");
 
             projectDiv.innerHTML = `
                 <div>
-                    <h3>
+                    <h3 class="titlee">
                         <a href="${project.link}" target="_blank" style="text-decoration: none; color: black ;">${project.title}</a>
                         <span class="status ${statusClass}" >${project.status}</span>
                     </h3>

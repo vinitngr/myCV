@@ -209,6 +209,7 @@ body {
         .pro {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            gap: 10px 
         }
 
         @media (max-width: 740px) {
@@ -236,4 +237,10 @@ body {
                 display: grid;
                 grid-template-columns: 1fr;
             }
+        }
+.titlee{
+            border-left: 3px solid;
+            border-image: linear-gradient(to bottom, rgba(0, 255, 21, 0.5) ,rgba(67, 89, 255, 0.5));
+            border-image-slice: 1;
+            padding-left: 10px;
         }

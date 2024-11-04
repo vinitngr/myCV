@@ -91,29 +91,10 @@ body {
             height: 1px;
             background: #eaeaea;
             margin: 10px 0;
+
         }
 
-        @media (max-width: 740px) {
-            .inner-div {
-                flex-direction: column;
-                align-items: center;
-            }
 
-            .inner-div div {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .inner-div p,
-            .inner-div h1 {
-                margin: 5px;
-            }
-
-            .head {
-                text-align: center;
-            }
-        }
 
         form {
             display: flex;
@@ -190,8 +171,69 @@ body {
             margin: 5px;
         }
 
-        .contact-list li{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+        .contact-list li {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 100px;
+            font-weight: bold;
+            font-size: 0.8em;
+            margin-right: 8px;
+        }
+
+        .completed {
+            background-color: #A5D6A7;
+            color: #388E3C;
+        }
+
+        .progress {
+            background-color: #FFF59D;
+            color: rgb(127, 127, 0);
+        }
+
+        .hold {
+            background-color: #FFAB91;
+            color: #D84315;
+        }
+
+        .planned {
+            background-color: #90CAF9;
+            color: #1976D2;
+        }
+
+        .pro {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: 740px) {
+            .inner-div {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .inner-div div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .inner-div p,
+            .inner-div h1 {
+                margin: 5px;
+            }
+
+            .head {
+                text-align: center;
+            }
+
+            .pro {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
         }

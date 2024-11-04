@@ -11,15 +11,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    </head>
+</head>
 
 <body>
     <div class="container">
         <div class="inner-div">
             <div id="img"></div>
             <div>
-                <h1 class="head" style="color: rgb(0, 0, 62); background-color: white ; width: fit-content; padding: 5px 10px; border-radius: 10px;">VINIT NAGAR</h1>
+                <h1 class="head"
+                    style="color: rgb(0, 0, 62); background-color: white ; width: fit-content; padding: 5px 10px; border-radius: 10px;">
+                    VINIT NAGAR</h1>
                 <p class="head" style="color: white;">Currently a Full Stack Web Developer</p>
                 <p class="head" style="color: white;">Finding career on Ai and Computer vision</p>
             </div>
@@ -44,34 +47,27 @@
         </section>
 
         <section>
-            <h2>Projects</h2>
-            <hr>
-            <h3>Front End Projects</h3>
-            <ul>
-                <li>&#8226; Amazon Responsive Clone (JS, HTML, CSS)</li>
-                <li>&#8226;  ownAcar... Weblogs... Type Racer </li>
-                <li>&#8226; Rejouice Clone, SIMON GAME, and more...</li>
-            </ul>
-            <h3>Full stack projects (Ongoing)</h3>
-            <ul>
-                <li>&#8226; QuickBuildUi... primarease... </li>
-            </ul>
-        </section>
-
-        <section>
             <h2>Skills</h2>
             <hr>
             <div id="skillsContainer"></div>
 
         </section>
+        <section>
+            <h2>My Projects</h2>
+            <hr>
+            <div class="pro" id="projectContainer"></div>
+        </section>
+
 
         <section>
             <h2>Get in Touch</h2>
             <hr>
             <ul class="contact-list">
                 <li>&#8226; <img src="./zsvg/twitter.svg" alt="">Twitter / X: <a href="#">@sorxererr</a></li>
-                <li>&#8226; <img src="./zsvg/github.svg" alt="" srcset="">GitHub : <a href="https://github.com/vinitngr">@vinitngr</a></li>
-                <li>&#8226; <img src="./zsvg/linked.svg" alt="" srcset="">LinkedIn : <a href="https://www.linkedin.com/in/vinit-nagar-264434293/">Vinit Nagar</a></li>
+                <li>&#8226; <img src="./zsvg/github.svg" alt="" srcset="">GitHub : <a
+                        href="https://github.com/vinitngr">@vinitngr</a></li>
+                <li>&#8226; <img src="./zsvg/linked.svg" alt="" srcset="">LinkedIn : <a
+                        href="https://www.linkedin.com/in/vinit-nagar-264434293/">Vinit Nagar</a></li>
             </ul>
             <form id="contactForm">
                 <div class="form-group">
@@ -86,48 +82,8 @@
             </form>
 
     </div>
-    <script>
-        const skills = [
-    {
-        category: "Frontend Development",
-        skills: ["JS", "CSS", "HTML/EJS", "Tailwind CSS", "React", "TypeScript", "GSAP"]
-    },
-    {
-        category: "Backend Development",
-        skills: ["Node and Express", "MongoDB", "PostgreSQL"]
-    },
-    {
-        category: "Programming Languages",
-        skills: ["JavaScript", "Python", "TypeScript", "Arduino-Cpp"]
-    },
-    {
-        category: "Databases",
-        skills: ["MongoDB", "PostgreSQL","Drizzle"]
-    },
-    {
-        category: "Tech Tools",
-        skills: ["Arduino-Cpp", "GSAP"]
-    }
-];
 
-const skillsContainer = document.getElementById("skillsContainer");
-
-skills.forEach(section => {
-    const categoryHeading = document.createElement("h3");
-    categoryHeading.textContent = section.category;
-    skillsContainer.appendChild(categoryHeading);
-    
-    const skillsWrapper = document.createElement("div");
-    section.skills.forEach(skill => {
-        const skillTag = document.createElement("code");
-        skillTag.textContent = skill;
-        skillsWrapper.appendChild(skillTag);
-    });
-    skillsContainer.appendChild(skillsWrapper);
-});
-
-    </script>
-
+    <script src="./script.js"></script>
 </body>
 
 

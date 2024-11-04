@@ -74,8 +74,8 @@ const skillsContainer = document.getElementById("skillsContainer");
             const statusClass = project.status.toLowerCase();
 
             projectDiv.innerHTML = `
-                <div style="padding: 0px 10px">
-                    <h3 style="border-left: 3px solid gray; padding-left: 10px">
+                <div>
+                    <h3>
                         <a href="${project.link}" target="_blank" style="text-decoration: none; color: black ;">${project.title}</a>
                         <span class="status ${statusClass}" >${project.status}</span>
                     </h3>

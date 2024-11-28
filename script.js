@@ -45,7 +45,7 @@
             {
                 title: 'Type Racer',
                 description: 'A simple type racing platform where you can type given quotes and check your type speed ,btw mine is 80 lol.',
-                link: 'https://example.com/type-racer',
+                link: 'https://github.com/vinitngr/webD-TypeSpeed-js',
                 status: 'completed'
             },
             {

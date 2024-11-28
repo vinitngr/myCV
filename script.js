@@ -27,19 +27,19 @@
             {
                 title: 'Amz Clone',
                 description: 'A clone of Amazon\'s website, featuring a fully responsive layout using HTML, CSS, and JavaScript.',
-                link: 'https://example.com/amazon-clone',
+                link: 'https://github.com/vinitngr/webD-amzClone',
                 status: 'Completed'
             },
             {
                 title: 'ownAcar',
                 description: 'A platform for buying and selling cars , immplemented services like drizzle, neon, client etc..',
-                link: 'https://example.com/ownacar',
+                link: 'https://github.com/vinitngr/ownacar',
                 status: 'Progress'
             },
             {
                 title: 'Weblogs',
                 description: 'A blogging platform for developers allowing users to create, read, and comment on blog posts. also allow user to repost blogs using ext.',
-                link: 'https://example.com/weblogs',
+                link: '',
                 status: 'Progress'
             },
             {
@@ -51,19 +51,19 @@
             {
                 title: 'Rejouice Clone',
                 description: 'A clone of Rejouice A animated website made using Gsap, ',
-                link: 'https://example.com/rejouice-clone',
+                link: 'https://github.com/vinitngr/rejouice_clone_GSAP',
                 status: 'completed'
             },
             {
                 title: 'Simon Game',
                 description: 'A classic memory game where players repeat a sequence of colors and sounds.',
-                link: 'https://example.com/simon-game',
+                link: 'https://github.com/vinitngr/webD-The-simon-game',
                 status: 'Completed'
             },
             {
                 title: 'Primarease',
                 description: 'A digital dashboard designed for farmers, Primarease offers easy graphical data visualization, allowing users to monitor their crops effectively.',
-                link: 'https://example.com/simon-game',
+                link: '',
                 status: 'planned'
             }   
 

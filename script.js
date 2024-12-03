@@ -20,7 +20,7 @@
             },
             {
                 category: "Tech Tools",
-                skills: ["Arduino-Cpp", "GSAP"]
+                skills: ["Arduino-Cpp", "GSAP" , "Clerk"]
             }
         ];
         const projects = [

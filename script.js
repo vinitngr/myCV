@@ -20,7 +20,7 @@
             },
             {
                 category: "Tech Tools",
-                skills: ["Arduino-Cpp", "GSAP" , "Clerk"]
+                skills: ["Arduino-Cpp", "GSAP" , "Clerk" , "socketio" , "webRTC-API" , "canvas-API"]
             }
         ];
         const projects = [

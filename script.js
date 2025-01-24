@@ -37,12 +37,6 @@
                 status: 'Completed'
             },
             {
-                title: 'Weblogs',
-                description: 'A blogging platform for developers allowing users to create, read, and comment on blog posts. also allow user to repost blogs using ext.',
-                link: '',
-                status: 'Hold'
-            },
-            {
                 title: 'Type Racer',
                 description: 'A simple type racing platform where you can type given quotes and check your type speed ,btw mine is 80 lol.',
                 link: 'https://github.com/vinitngr/webD-TypeSpeed-js',

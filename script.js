@@ -34,13 +34,13 @@
                 title: 'ownAcar',
                 description: 'A platform for buying and selling cars , immplemented services like drizzle, neon, client etc..',
                 link: 'https://github.com/vinitngr/ownacar',
-                status: 'Progress'
+                status: 'Completed'
             },
             {
                 title: 'Weblogs',
                 description: 'A blogging platform for developers allowing users to create, read, and comment on blog posts. also allow user to repost blogs using ext.',
                 link: '',
-                status: 'Progress'
+                status: 'Hold'
             },
             {
                 title: 'Type Racer',

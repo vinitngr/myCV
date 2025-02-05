@@ -16,7 +16,7 @@
             },
             {
                 category: "Databases",
-                skills: ["MongoDB", "PostgreSQL", "Drizzle"]
+                skills: ["MongoDB", "PostgreSQL", "Drizzle-ORM" , "Redis"]
             },
             {
                 category: "Tech Tools",
